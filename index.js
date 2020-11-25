@@ -328,30 +328,30 @@ let spy = !window.__adobe_cep__
           window.__adobe_cep__.getSystemPath("hostApplication")
         ),
       },
-      package: tryReadingFile(
-        window.__adobe_cep__.getSystemPath("extension"),
-        "/package.json",
-        "",
-        true
-      ),
-      author: tryReadingFile(
-        window.__adobe_cep__.getSystemPath("extension"),
-        "/package.json",
-        "author",
-        true
-      ),
-      repository: tryReadingFile(
-        window.__adobe_cep__.getSystemPath("extension"),
-        "/package.json",
-        "repository",
-        true
-      ),
-      homepage: tryReadingFile(
-        window.__adobe_cep__.getSystemPath("extension"),
-        "/package.json",
-        "homepage",
-        true
-      ),
+//       package: tryReadingFile(
+//         window.__adobe_cep__.getSystemPath("extension"),
+//         "/package.json",
+//         "",
+//         true
+//       ),
+//       author: tryReadingFile(
+//         window.__adobe_cep__.getSystemPath("extension"),
+//         "/package.json",
+//         "author",
+//         true
+//       ),
+//       repository: tryReadingFile(
+//         window.__adobe_cep__.getSystemPath("extension"),
+//         "/package.json",
+//         "repository",
+//         true
+//       ),
+//       homepage: tryReadingFile(
+//         window.__adobe_cep__.getSystemPath("extension"),
+//         "/package.json",
+//         "homepage",
+//         true
+//       ),
       localhost: getLocalHost(),
       isDev: /localhost/.test(document.location.href),
       extVersion: getManifestVersion(),
